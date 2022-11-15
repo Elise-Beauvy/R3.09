@@ -1,0 +1,2 @@
+def gethostname():
+    return None

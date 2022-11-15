@@ -14,7 +14,7 @@ while msgcl != "arret" and msgsrv != "arret":
 
         msgcl = conn.recv(1024).decode()
         print(msgcl)
-        msgsrv = input("Michelle:")
+        msgsrv = input("Isis:")
         conn.send(msgsrv.encode())
     conn.close()
 server_socket.close()

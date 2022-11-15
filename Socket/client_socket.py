@@ -2,6 +2,7 @@ import socket
 
 msgcl = ""
 msgsrv = ""
+
 host = socket.gethostname()
 
 client_socket = socket.socket()
